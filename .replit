@@ -1,0 +1,15 @@
+# Replit Configuration for Twilio AI Voice Assistant
+
+[run]
+run = "python main_replit.py"
+language = "python3"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "python main_replit.py"]
+
+[[ports]]
+localPort = 8080
+externalPort = 80
